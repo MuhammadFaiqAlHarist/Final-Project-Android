@@ -1,4 +1,4 @@
-package com.faiq.finalproject.network
+package com.faiq.finalproject.data.network
 
 import androidx.viewbinding.BuildConfig
 import okhttp3.OkHttpClient
@@ -31,7 +31,7 @@ object ApiConfig {
             .build()
 
         return Retrofit.Builder()
-            .baseUrl(BuildConfig.BASE_URL)
+            .baseUrl("https://api.spoonacular.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(okHttpClient)
             .build()

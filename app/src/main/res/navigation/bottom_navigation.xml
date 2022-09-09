@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.faiq.finalproject.HomeFragment"
+        android:name="com.faiq.finalproject.ui.randomRecipe.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_search"
-        android:name="com.faiq.finalproject.SearchFragment"
+        android:name="com.faiq.finalproject.ui.searchRecipe.SearchFragment"
         android:label="Search"
         tools:layout="@layout/fragment_search" />
 </navigation>
